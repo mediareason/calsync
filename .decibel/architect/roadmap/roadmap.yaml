@@ -1,0 +1,75 @@
+# CalSync Strategic Roadmap
+# Last updated: 2026-01-03
+
+version: "1.0"
+project: calsync
+
+objectives:
+  - id: OBJ-0001
+    title: Make scheduling frictionless for busy professionals
+    key_results:
+      - Reduce time-to-book from 5+ emails to 1 click
+      - 90% of users complete first booking within 5 minutes
+    status: active
+    
+  - id: OBJ-0002
+    title: Reduce no-shows by 50%
+    key_results:
+      - Implement smart reminder system
+      - Track and report no-show rates
+      - A/B test reminder timing and channels
+    status: active
+    
+  - id: OBJ-0003
+    title: Support team scheduling workflows
+    key_results:
+      - Group availability detection
+      - Round-robin assignment
+      - Team calendar views
+    status: planned
+
+themes:
+  - id: core
+    name: Core Scheduling
+    description: Calendar integration, availability engine, booking flow
+    color: "#3B82F6"
+    
+  - id: engagement
+    name: User Engagement
+    description: Reminders, confirmations, follow-ups, notifications
+    color: "#10B981"
+    
+  - id: collaboration
+    name: Team Collaboration
+    description: Team calendars, group booking, shared availability
+    color: "#8B5CF6"
+    
+  - id: platform
+    name: Platform & Infrastructure
+    description: APIs, integrations, performance, reliability
+    color: "#F59E0B"
+
+milestones:
+  - id: M-0001
+    title: MVP Launch
+    description: Individual scheduling with Google Calendar
+    target_date: "2026-03-01"
+    status: in_progress
+    themes: [core, engagement]
+    epics: []
+    
+  - id: M-0002
+    title: Team Features
+    description: Multi-user scheduling and team management
+    target_date: "2026-06-01"
+    status: planned
+    themes: [collaboration]
+    epics: []
+    
+  - id: M-0003
+    title: Enterprise Ready
+    description: SSO, admin controls, analytics, SLAs
+    target_date: "2026-09-01"
+    status: planned
+    themes: [platform, collaboration]
+    epics: []
