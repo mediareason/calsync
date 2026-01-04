@@ -38,6 +38,8 @@ themes:
     name: User Engagement
     description: Reminders, confirmations, follow-ups, notifications
     color: "#10B981"
+    notes:
+      - "SMS provider still TBD (Twilio? MessageBird? etc)"
     
   - id: collaboration
     name: Team Collaboration
