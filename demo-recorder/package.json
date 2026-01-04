@@ -1,0 +1,15 @@
+{
+  "name": "calsync-demo-recorder",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "npx ts-node demo.ts setup",
+    "record": "npx ts-node demo.ts record",
+    "install-browser": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
